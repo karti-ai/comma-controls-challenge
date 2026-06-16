@@ -4,12 +4,14 @@ A real-time controller for the [comma controls challenge](https://github.com/com
 
 **`total_cost` 72.3 vs the pid baseline's 110.3 — 34% lower, and better on both axes.** Scored on the full 5,000-segment set.
 
-![report](report.png)
+![cost distributions — karti vs pid](aggregate.png)
 
 | controller | total_cost | lataccel_cost | jerk_cost |
 | --- | --- | --- | --- |
 | **`karti`** | **72.3** | **0.97** | **24.1** |
 | `pid` (baseline) | 110.3 | 1.70 | 25.5 |
+
+<sub>Full report — cost table, pass check, and sample rollouts: **[report.png](report.png)**.</sub>
 
 ## How it works
 
